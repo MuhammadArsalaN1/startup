@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/question/hybridsolution.uk
+    - /bin/rm -rf $DEPLOYPATH/assets
+    - /bin/rm -f  $DEPLOYPATH/index.html
+    - /bin/cp -R dist/* $DEPLOYPATH/
