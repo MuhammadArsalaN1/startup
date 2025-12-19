@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow dist build
+!dist/
+!dist/**
+
+# Allow essential files
+!.gitignore
+!.cpanel.yml
